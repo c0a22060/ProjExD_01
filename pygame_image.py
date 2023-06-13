@@ -8,7 +8,7 @@ def main():
     clock  = pg.time.Clock()
     bg_img = pg.image.load("ex01/fig/pg_bg.jpg")
     kk_img = pg.image.load("ex01/fig/3.png")
-    kk_img = pg.transform.flip(kk_img, True, False)
+ 
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: return
